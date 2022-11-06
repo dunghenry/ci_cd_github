@@ -16,6 +16,8 @@ jobs:
         with:
           output: report-markdown
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          threshold: 95
+          skip-step: install
       - uses: marocchino/sticky-pull-request-comment@v2
         with:
           message: ${{ steps.coverage.outputs.report }}
