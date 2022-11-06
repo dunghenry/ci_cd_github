@@ -2,7 +2,7 @@ name: ci_cd_action
 on:
   push:
     paths:
-      - 'README.md'
+      - '!README.md'
       - '!docs/**'
       - '**.js'
     branches:
