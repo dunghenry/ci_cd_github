@@ -9,6 +9,16 @@ on:
       - 'master'
       - 'release/**'
       - '!dev/**'
+  pull_request:
+    type: [opened, reopened, synchronize, labeled, unlabeled]
+    # paths:
+    #   - '!README.md'
+    #   - '!docs/**'
+    #   - '**.js'
+    # branches:
+    #   - 'master'
+    #   - 'release/**'
+    #   - '!dev/**'
   workflow_dispatch:
 jobs:
   say-hello:
