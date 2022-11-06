@@ -1,0 +1,27 @@
+{
+  "name": "ci_cd_github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dunghenry/ci_cd_github.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dunghenry/ci_cd_github/issues"
+  },
+  "homepage": "https://github.com/dunghenry/ci_cd_github#readme",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "randomstring": "^1.2.3"
+  }
+}
