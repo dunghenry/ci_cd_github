@@ -1,0 +1,9 @@
+name: ci_cd_action
+on:
+  push:
+    branches: [master]
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo Hello World
